@@ -47,7 +47,7 @@ def main():
             "OREB", "DREB", "REB", "AST", "TO", "STL", "BLK", "PF", "+/-", "SPI"
         ]
         df = pd.DataFrame(data, columns=columns) 
-        df.to_csv("nba_player_boxscores_2023-2024_test.csv", index=False)
+        df.to_csv("nba_player_boxscores_2023-2024.csv", index=False)
         print("Scraping completed.")
 
 # Call the main function
